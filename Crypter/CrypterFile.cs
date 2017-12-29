@@ -192,6 +192,7 @@ namespace Crypter
 
         public BackgroundWorker worker = new BackgroundWorker();
 
+        // For designer...
         public CrypterFile() : this("C:/Users/Kevin/Desktop/bmc_firmware/bmcfl32l", null) { }
 
         public CrypterFile(string path, MainWindow mainWindowInstance)
